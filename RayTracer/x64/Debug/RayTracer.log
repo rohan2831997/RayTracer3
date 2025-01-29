@@ -1,0 +1,7 @@
+﻿  RayTracer.cpp
+D:\Interview\Qualcomm\Projects\RayTracer\RayTracer\camera.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Interview\Qualcomm\Projects\RayTracer\RayTracer\camera.h(67,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  sphere.cpp
+  vec3.cpp
+  Generating Code...
+  RayTracer.vcxproj -> D:\Interview\Qualcomm\Projects\RayTracer\x64\Debug\RayTracer.exe

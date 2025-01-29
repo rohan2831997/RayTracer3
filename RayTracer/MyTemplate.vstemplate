@@ -1,0 +1,45 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>RayTracer1</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>RayTracer1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="RayTracer.vcxproj" File="RayTracer.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">RayTracer.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="color.cpp">color.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="hittable.cpp">hittable.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="hittable_list.cpp">hittable_list.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RayTracer.cpp">RayTracer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sphere.cpp">sphere.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vec3.cpp">vec3.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="aabb.h">aabb.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="bvh.h">bvh.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="camera.h">camera.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="color.h">color.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Constant_medium.h">Constant_medium.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="hittable.h">hittable.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="hittable_list.h">hittable_list.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="interval.h">interval.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="material.h">material.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="perlin.h">perlin.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="quad.h">quad.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ray.h">ray.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RayTracer.h">RayTracer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="rtweekend.h">rtweekend.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="rtw_stb_image.h">rtw_stb_image.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sphere.h">sphere.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="texture.h">texture.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vec3.h">vec3.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
